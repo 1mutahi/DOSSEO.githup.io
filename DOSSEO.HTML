@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dosseo deriv bots</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+    function validatePasscode() {
+      var passcode = document.getElementById("passcode").value;
+
+
+      if (passcode == "J779278") {
+        alert("Login successful!");
+		window.location.href = "Dos.html";
+      } else {
+        alert("Incorrect passcode. Please contact mutai peter for correct passcode.");
+      }
+    }
+    </script>
+</head>
+<body>
+    <header><img scr="logo.jpg"></header>
+    <center>
+	<div style="background-color: black">
+    <p><h3 style="color: white"> Welcome To DOSSEO Deriv Softwares Bots.</h3>
+	    <h4 style="color: white">Dosseo Community provides six powerful derivative softwares for all digits trade types,<br>
+	        Each deriv bot comes with a guide on how to use and timing of the market for higher profits.
+		</h4>
+	</p>
+    </div>	
+    <div class="login-container">
+        <h2><h3>To access and download the Algotrader Dbots softwares;<br> Login</h3></h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+			<div class="form-group">
+                <label for="passcode">Passcode:</label>
+                  <input type="password" id="passcode" name="passcode" required>
+                  <br><br>
+                  <input type="button" value="Login" onclick="validatePasscode()">
+            </div>
+			<p> To get a passcode, contact <b style="color: blue"><u><a href=" https://wa.me/254795820623"><i>MUTAI PETER</i><a/></u></b> with one time fee of <b>$10</b> only <br>
+			or access forex signals <a href="https://foresignal.com/">HERE</a> for free.</p>
+        </form>
+    </div>
+	</center>
+	 <footer>
+	 <p style="color: white">Unleash your trading potential with Dosseo Dbots softwares<br>
+	 <i><u>Mutai Peter is a Software Engineer and experienced online trader.</u></i></p> 
+    <p>&copy; 2023 Dosseo softwares. All rights reserved.</p>
+  </footer>
+</body>
+</html>
